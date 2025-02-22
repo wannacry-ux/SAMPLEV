@@ -140,14 +140,6 @@
             align-items: center;
             justify-content: center; /* Center the logo and title */
         }
-        video {
-            width: 100%; /* Adjust as needed */
-            height: auto; /* Maintain aspect ratio */
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 0; /* Place video behind the text */
-        }
         .video-container {
             position: relative;
             width: 150px; /* Adjust size as needed */
@@ -181,17 +173,6 @@
         }
         .video-container:hover .circular-video {
             opacity: 0; /* Hide video on hover */
-        }
-        .dinoverse-title {
-            font-size: 2.5rem; /* Reduced size */
-            color: #fff; /* White color for text */
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
-            position: relative;
-            z-index: 3; /* Ensure text is above everything */
-        }
-        .more-cards-button:hover {
-            box-shadow: 0 8px 25px rgba(255, 87, 34, 0.8);
-            transform: scale(1.05);
         }
         /* Sidebar styles */
         .sidebar {
@@ -274,7 +255,7 @@
             color: #4CAF50; /* Green text color */
             text-align: center; /* Center text */
             transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
-
+    
             width: 150px; /* Increased width for the boxes */
             height: 50px; /* Set a fixed height for boxes */
             display: flex; /* Use flexbox for alignment */
@@ -282,12 +263,12 @@
             justify-content: center; /* Center items horizontally */
             cursor: pointer; /* Change cursor to pointer */
         }
-
+    
         .gift-card-item:hover {
             background-color: rgba(76, 175, 80, 0.1); /* Light green background on hover */
             transform: scale(1.05); /* Slightly enlarge on hover */
         }
-
+    
         /* Media Queries for Responsiveness */
         @media (max-width: 1200px) {
             .footer-content {
@@ -298,7 +279,7 @@
                 padding: 10px 0; /* Adjust padding for smaller screens */
             }
         }
-
+    
         @media (max-width: 768px) {
             header {
                 flex-direction: column; /* Stack header items on smaller screens */
@@ -317,7 +298,7 @@
                 padding: 10px; /* Adjust padding for main content */
             }
         }
-
+    
         @media (max-width: 480px) {
             .product-card {
                 max-width: 100%; /* Full width product cards on very small screens */
@@ -358,26 +339,24 @@
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
         <h2>Gift Cards</h2>
-        
-            <div class="gift-card-item">
-                <a href="myntra.html">Myntra Gift Card</a>
-            </div>
-            <div class="gift-card-item">
-                <a href="playstore.html">Playstore Gift Card</a>
-            </div>
-            <div class="gift-card-item">
-                <a href="applepay.html">Apple Pay Gift Card</a>
-            </div>
-            <div class="gift-card-item">
-                <a href="flipkart.html">Flipkart Gift Card</a>
-            </div>
-            <div class="gift-card-item">
-                <a href="binance.html">Binance Gift Card</a>
-            </div>
-            <div class="gift-card-item">
-                <a href="javascript:void(0);" onclick="alert('Amazon Gift Card functionality will be implemented.');">Amazon Gift Card</a>
-            </div>
-        
+        <div class="gift-card-item">
+            <a href="myntra.html">Myntra Gift Card</a>
+        </div>
+        <div class="gift-card-item">
+            <a href="playstore.html">Playstore Gift Card</a>
+        </div>
+        <div class="gift-card-item">
+            <a href="applepay.html">Apple Pay Gift Card</a>
+        </div>
+        <div class="gift-card-item">
+            <a href="flipkart.html">Flipkart Gift Card</a>
+        </div>
+        <div class="gift-card-item">
+            <a href="binance.html">Binance Gift Card</a>
+        </div>
+        <div class="gift-card-item">
+            <a href="index.html">Amazon Gift Card</a>
+        </div>
     </div>
 
     <div class="main-content" id="main-content">
@@ -391,8 +370,8 @@
         <div class="container" style="margin-top: -20px;">
             <!-- Product 1 -->
             <div class="product-card">
-                <img src="./images/Untitled design.png" alt="Basic Plan">
-                <h3>$50 Amazon Gift Card</h3>
+                <img src="./images/apple gc logo.png" alt="Basic Plan">
+                <h3>$50 applepay Gift Card</h3>
                 <p class="price">$15.00</p>
                 <p>$50 balance each</p>
                 <p>Available worldwide</p>
@@ -407,8 +386,8 @@
             </div>
             <!-- Product 2 -->
             <div class="product-card">
-                <img src="./images/Untitled design.png" alt="Product 2">
-                <h3>$100 Amazon Gift Card</h3>
+                <img src="./images/apple gc logo.png" alt="Product 2">
+                <h3>$100 applepay Gift Card</h3>
                 <p class="price">$25.00</p>
                 <p>$100 balance each</p>
                 <p>Available worldwide</p>
@@ -423,8 +402,8 @@
             </div>
             <!-- Product 3 -->
             <div class="product-card">
-                <img src="./images/Untitled design.png" alt="Product 3">
-                <h3>$200 Amazon Gift Card</h3>
+                <img src="./images/apple gc logo.png" alt="Product 3">
+                <h3>$200 applepay Gift Card</h3>
                 <p class="price">$50.00</p>
                 <p>$200 balance each</p>
                 <p>Available worldwide</p>
@@ -439,8 +418,8 @@
             </div>
             <!-- Product 4 -->
             <div class="product-card">
-                <img src="./images/Untitled design.png" alt="Product 4">
-                <h3>$300 Amazon Gift Card</h3>
+                <img src="./images/apple gc logo.png" alt="Product 4">
+                <h3>$300 applepay Gift Card</h3>
                 <p class="price">$75.00</p>
                 <p>$300 balance each</p>
                 <p>Available worldwide</p>
@@ -455,8 +434,8 @@
             </div>
             <!-- Product 5 -->
             <div class="product-card">
-                <img src="./images/Untitled design.png" alt="Product 5">
-                <h3>$400 Amazon Gift Card</h3>
+                <img src="./images/apple gc logo.png" alt="Product 5">
+                <h3>$400 applepay Gift Card</h3>
                 <p class="price">$100.00</p>
                 <p>$400 balance each</p>
                 <p>Available worldwide</p>
@@ -471,8 +450,8 @@
             </div>
             <!-- Product 6 -->
             <div class="product-card">
-                <img src="./images/Untitled design.png" alt="Product 6">
-                <h3>$500 Amazon Gift Card</h3>
+                <img src="./images/apple gc logo.png" alt="Product 6"> 
+                <h3>$500 applepay Gift Card</h3>
                 <p class="price">$200.00</p>
                 <p>$500 balance each</p>
                 <p>Available worldwide</p>
